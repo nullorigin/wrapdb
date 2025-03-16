@@ -37,7 +37,7 @@ def get_wrap_info(wrap: str) -> T.List[T.Tuple[str, str]]:
         stdout = subprocess.check_output(['meson', 'wrap', 'info', wrap])
         for line in stdout.decode().splitlines()[1:]:
             line = line.strip()
-            version, revision = line.split()
+            version, revision = line.split('-')
             versions.append((version, revision))
     except subprocess.CalledProcessError:
         pass
@@ -56,7 +56,7 @@ def rewrite_wrap(wrap: str):
 def fetch_git(wrap: str, branch: str):
     # Fetch history from legacy repository and move files to new location
     os.makedirs(f'subprojects/packagefiles/{wrap}', exist_ok=True)
-    subprocess.check_call(['git', 'fetch', f'https://github.com/mesonbuild/{wrap}', branch])
+    subprocess.check_call(['git', 'fetch', f'https://github.com/mesonbuild/{wrap}.git', branch])
     subprocess.check_call(['git', 'merge', 'FETCH_HEAD', '--allow-unrelated-histories', '--no-edit'])
     subprocess.check_call(['git', 'mv', 'upstream.wrap', f'subprojects/{wrap}.wrap'])
     subprocess.check_call(['git', 'rm', 'readme.txt'])
@@ -159,10 +159,6 @@ if __name__ == '__main__':
     # - openh264 is special because it contains "subprojects/gtest.wrap" that
     #   conflicts with gtest from wrapdb.
     all_wraps = get_wrap_list()
-    all_wraps.remove('sqlite')
-    all_wraps.remove('libjpeg')
-    all_wraps.remove('openh264')
-    all_wraps.insert(0, 'openh264')
     for wrap in all_wraps:
         versions = get_wrap_info(wrap)
         if not versions:

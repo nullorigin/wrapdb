@@ -1,8 +1,8 @@
 [wrap-file]
-directory = nghttp2-1.62.1
-source_url = https://github.com/nghttp2/nghttp2/releases/download/v1.62.1/nghttp2-1.62.1.tar.xz
-source_filename = nghttp2-1.62.1.tar.xz
-source_hash = 2345d4dc136fda28ce243e0bb21f2e7e8ef6293d62c799abbf6f633a6887af72
+directory = nghttp2-1.65.0
+source_url = https://github.com/nghttp2/nghttp2/releases/download/v1.65.0/nghttp2-1.65.0.tar.xz
+source_filename = nghttp2-1.65.0.tar.xz
+source_hash = f1b9df5f02e9942b31247e3d415483553bc4ac501c87aa39340b6d19c92a9331
 patch_directory = nghttp2
 
 [provide]

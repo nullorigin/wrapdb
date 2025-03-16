@@ -1,9 +1,9 @@
 [wrap-file]
-directory = liborcus-0.19.2
-source_url = https://kohei.us/files/orcus/src/liborcus-0.19.2.tar.xz
-source_filename = liborcus-0.19.2.tar.xz
-source_hash = 69ed26a00d4aaa7688e62a6e003cbc81928521a45e96605e53365aa499719e39
+directory = liborcus-0.20.0
+source_url = https://kohei.us/files/orcus/src/liborcus-0.20.0.tar.xz
+source_filename = liborcus-0.20.0.tar.xz
+source_hash = 51c9bc7d01503e71f77f703e5522cf0bb782fa4cc18b0c1144206c5b486f7f3a
 patch_directory = orcus
 
 [provide]
-liborcus-0.19 = liborcus_dep
+liborcus-0.20 = liborcus_dep

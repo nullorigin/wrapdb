@@ -1,8 +1,8 @@
 [wrap-file]
-directory = liburing-liburing-2.5
-source_url = https://github.com/axboe/liburing/archive/refs/tags/liburing-2.5.tar.gz
-source_filename = liburing-2.5.tar.gz
-source_hash = 456f5f882165630f0dc7b75e8fd53bd01a955d5d4720729b4323097e6e9f2a98
+directory = liburing-liburing-2.9
+source_url = https://github.com/axboe/liburing/archive/refs/tags/liburing-2.9.tar.gz
+source_filename = liburing-2.9.tar.gz
+source_hash = 897b1153b55543e8b92a5a3eb9b906537a5fedcf8afaf241f8b8787940c79f8d
 patch_directory = liburing
 
 [provide]

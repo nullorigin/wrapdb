@@ -1,8 +1,8 @@
 [wrap-file]
-directory = protobuf-25.2
-source_url = https://github.com/protocolbuffers/protobuf/releases/download/v25.2/protobuf-25.2.tar.gz
-source_filename = protobuf-25.2.tar.gz
-source_hash = 8ff511a64fc46ee792d3fe49a5a1bcad6f7dc50dfbba5a28b0e5b979c17f9871
+directory = protobuf-30.1
+source_url = https://github.com/protocolbuffers/protobuf/releases/download/v30.1/protobuf-30.1.tar.gz
+source_filename = protobuf-30.1.tar.gz
+source_hash = 1451b03faec83aed17cdc71671d1bbdfd72e54086b827f5f6fd02bf7a4041b68
 patch_directory = protobuf
 
 [provide]

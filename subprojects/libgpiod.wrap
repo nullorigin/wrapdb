@@ -1,9 +1,9 @@
 [wrap-file]
-directory = libgpiod-1.6.5
+directory = libgpiod-2.2.1
 
-source_url = https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/snapshot/libgpiod-1.6.5.tar.gz
-source_filename = libgpiod-1.6.5.tar.gz
-source_hash = 1473d3035b506065393a4569763cf6b5c98e59c8f865326374ebadffa2578f3a
+source_url = https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/snapshot/libgpiod-2.2.1.tar.gz
+source_filename = libgpiod-2.2.1.tar.gz
+source_hash = 4857d0257c40b44518ae7c4d84f1b023fd2be98e23ef9fb795af4d65b7e1607f
 
 patch_directory = libgpiod
 

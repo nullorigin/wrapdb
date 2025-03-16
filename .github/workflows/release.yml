@@ -3,7 +3,7 @@ name: Prepare release
 on:
   push:
     branches:
-      - master
+      - main
 
 concurrency:
   group: ${{ github.workflow }}

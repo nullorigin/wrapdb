@@ -1,8 +1,8 @@
 [wrap-file]
-directory = grpc-1.59.1
-source_url = https://github.com/grpc/grpc/archive/refs/tags/v1.59.1.tar.gz
-source_filename = grpc-1.59.1.tar.gz
-source_hash = 916f88a34f06b56432611aaa8c55befee96d0a7b7d7457733b9deeacbc016f99
+directory = grpc-1.71.0
+source_url = https://github.com/grpc/grpc/archive/refs/tags/v1.71.0.tar.gz
+source_filename = grpc-1.71.0.tar.gz
+source_hash = 0d631419e54ec5b29def798623ee3bf5520dac77abeab3284ef7027ec2363f91
 patch_directory = grpc
 
 [provide]

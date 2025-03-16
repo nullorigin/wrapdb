@@ -1,9 +1,10 @@
 [wrap-file]
 directory = pixman-0.44.2
 
-source_url = https://www.cairographics.org/releases/pixman-0.44.2.tar.gz
-source_filename = pixman-0.44.2.tar.gz
-source_hash = 6349061ce1a338ab6952b92194d1b0377472244208d47ff25bef86fc71973466
+source_url = https://xorg.freedesktop.org/releases/individual/lib/pixman-0.44.2.tar.xz
+source_filename = pixman-0.44.2.tar.xz
+source_hash = 50baf820dde0c5ff9714d03d2df4970f606a3d3b1024f5404c0398a9821cc4b0
+patch_directory = pixman
 
 [provide]
 pixman-1 = idep_pixman
